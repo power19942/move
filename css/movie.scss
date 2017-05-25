@@ -1,0 +1,142 @@
+.movie-header{
+  background: url("../images/silnce.jpg") no-repeat center top;
+  background-size: cover;
+  position: relative;
+
+  #navbar{
+    position: absolute;
+    top:0;
+    background: -webkit-linear-gradient(rgba(0,0,0,.85) 0%,rgba(0,0,0,.5) 60%,transparent 100%);
+    box-shadow: none;
+    .nav-wrapper a.my-logo{
+      color: #fff !important;
+    }
+    ul li a{
+      color: #fff !important;
+      background-color: transparent !important;
+    }
+    ul{
+      width: 60%;
+      border-bottom: 1px solid #eee;
+      margin-bottom: -5px;
+      padding-bottom: 0;
+      float: right !important;
+      text-align: right;
+      direction: rtl;
+      height: 63px !important;
+
+      li{
+        float: right;
+      }
+    }
+  }
+
+  .movie-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    height: 60px;
+    padding: 15px 10px;
+    background: -webkit-linear-gradient(rgba(118,118,118,.4) 31.79%,rgba(38,38,38,.65) 100%);
+    color:#fff;
+    text-align: center;
+    h3{
+      text-align: center;
+      margin: 0 50px;
+      display: inline-block;
+      font-size: 2rem;
+    }
+  }
+}
+.download , .info{
+  h3,p{
+    direction: rtl;
+  }
+  h3{
+    color: #888;
+    border-bottom: 1px solid #888;
+    padding-bottom: 10px;
+  }
+  p{
+    color: #fff;
+  }
+}
+.download{
+  h3{
+    text-align: center;
+  }
+  ul{
+      text-align: center;
+    li{
+      padding: 12px;
+      background: #42b03c;
+      /* border-radius: 2px; */
+      border: 1px solid #478c24;
+      color: #fff;
+      a{
+        color: #fff;
+      }
+    }
+  }
+}
+.info{
+  .movie-info{
+    margin-top: 20px;
+    i,small,p{
+      color: #fff;
+    }
+    li{
+      float: right;
+      width: 138px;
+      height: 175px;
+      border: 1px solid #fff;
+      padding: 10px;
+      text-align: center;
+      margin: 10px;
+      color: #888;
+      &:hover{
+        background: #EE6587;
+        border-color: #EE6587;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+.cover img{
+  height:495px;
+  width:329px;
+}
+
+.image-wrapper{
+  position: relative;
+  .category{
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    color: #fff;
+    font-size: 15px;
+    background: #ee6587;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+
+.trailer{
+  padding: 20px;
+  //background-color: #2A2C37;
+  overflow: hidden;
+  h3{
+    color: #fff;
+    padding-bottom: 10px;
+    margin-top:50px;
+    margin-bottom:50px;
+    direction: rtl;
+    border-bottom: 1px solid #fff;
+  }
+  iframe{
+    border:none !important;
+    width: 70%;
+    height: 500px;
+  }
+}
